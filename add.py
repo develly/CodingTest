@@ -1,3 +1,4 @@
+#-*- encoding: utf-8 -*-
 # 두개 뽑아서 더하기
 
 def solution(numbers):

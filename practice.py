@@ -11,6 +11,6 @@ def solution(arr):
     return answer
 
 if __name__ == "__main__":
-    arr = [1,1,3,3,0,1,1]
+    arr = [1,1,3,3,0,1,1] 
     answer = solution(arr)
     print(answer)
