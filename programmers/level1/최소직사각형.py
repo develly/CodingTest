@@ -9,11 +9,11 @@ def solution(sizes):
     return width * height
 
 
-def shortcut(sizes):
+def shorten(sizes):
     """Summarize the code in one line."""
     return max(max(card) for card in sizes) * max(min(card) for card in sizes)
 
 
 if __name__ == '__main__':
     print(solution([[60, 50], [30, 70], [60, 30], [80, 40]]))
-    print(shortcut([[60, 50], [30, 70], [60, 30], [80, 40]]))
+    print(shorten([[60, 50], [30, 70], [60, 30], [80, 40]]))
